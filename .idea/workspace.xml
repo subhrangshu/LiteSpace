@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.fuse_hidden00002bad00000005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/LiteSpace.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/811eb03f-86e6-45a1-9c50-6ec334195b9d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/addFiles.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/deleteFiles.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/ViewFiles.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/PrimaryController/controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/connections.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/shared.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
-    </list>
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Added README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +62,14 @@
       <option name="presentableId" value="Default" />
       <updated>1608751515000</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added README.md">
+      <created>1608835188810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608835188810</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +77,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README.md" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

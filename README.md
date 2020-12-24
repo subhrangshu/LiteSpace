@@ -1,5 +1,5 @@
 # LiteSpace
-An open-source highly distributed lite weight and fast database storage solution built with Go Lang, Redis and SQLite which can quickly scale up to YottaBytes scale. (1 YB = 1e+15 GB)
+An open-source highly distributed lite weight and fast Object Storage solution built with Go Lang, Redis and SQLite which can quickly scale up to YottaBytes scale. (1 YB = 1e+15 GB)
 
 Works for both horizontal integration and vertical integration.
 
