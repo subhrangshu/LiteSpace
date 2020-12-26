@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Updated README.md">
-      <change afterPath="$PROJECT_DIR$/Src/Files/filesController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.fuse_hidden00002bad00000005" beforeDir="false" />
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Preparations for adding files.">
+      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/AddFiles/addFiles.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/DeleteFiles/deleteFiles.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/ViewFiles/ViewFIles.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/sqlController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/pseudo-query-controller.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/addFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/addFiles.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/PrimaryController/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PrimaryController/controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/connections.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/connections.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/shared.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/DeleteFiles/deleteFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/deleteFiles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/ViewFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/ViewFiles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/filesController.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/filesController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hash.db" beforeDir="false" afterPath="$PROJECT_DIR$/hash.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -88,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608835539395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Preparations for adding files.">
+      <created>1608993087275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608993087275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,12 +113,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added README.md" />
     <MESSAGE value="Updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
+    <MESSAGE value="Preparations for adding files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparations for adding files." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
