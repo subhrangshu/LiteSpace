@@ -24,8 +24,15 @@ func SQLiteSession() *sql.DB {
 	db, err := sql.Open("sqlite3", "hash.db")
 	checkErr(err)
 
+	stmt, err := db.Prepare("create table if not exists hashlocation (id integer primary key , location text)")
+	checkErr(err)
+
+	queryReturn, err := stmt.Exec()
+	checkErr(err)
+	fmt.Print(queryReturn.LastInsertId())
+
 	// insert
-	stmt, err := db.Prepare("INSERT INTO userinfo(username, departname, created) values(?,?,?)")
+	/*stmt, err := db.Prepare("INSERT INTO userinfo(username, departname, created) values(?,?,?)")
 	checkErr(err)
 
 	res, err := stmt.Exec("as", "abc", "2012-12-09")
@@ -34,17 +41,15 @@ func SQLiteSession() *sql.DB {
 	id, err := res.LastInsertId()
 	checkErr(err)
 
-	fmt.Println(id)
+	fmt.Println(id)*/
 	return db
 }
 
 func FiberSession() *fiber.App {
 	app := fiber.New()
-
 	app.Get("/", func(c *fiber.Ctx) error {
-		return c.SendString("Welcome to LiteSpace 👋!")
+		return c.SendString("Hello, World 👋!")
 	})
-	app.Listen(":3000")
 	return app
 }
 

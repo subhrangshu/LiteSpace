@@ -16,12 +16,7 @@ func main() {
 
 	fiberSess := Src.FiberSession()
 
-	sess := Src.Sess{
-		RedisSess:  redisSess,
-		SqliteSess: sqliteSess,
-		FiberSess:  fiberSess,
-	}
-
-	PrimaryController.Controller(sess)
+	PrimaryController.Controller(fiberSess, sqliteSess, redisSess)
+	fiberSess.Listen(":3000")
 	//if err := session.Query('Insert int')
 }

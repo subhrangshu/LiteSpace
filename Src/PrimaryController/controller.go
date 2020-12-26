@@ -1,11 +1,12 @@
 package PrimaryController
 
 import (
-	"LiteSpace/Src"
-	"fmt"
+	"LiteSpace/Src/Files"
+	"database/sql"
+	"github.com/go-redis/redis"
+	"github.com/gofiber/fiber/v2"
 )
 
-func Controller(sess Src.Sess) {
-	sess.RedisSess.Ping()
-	fmt.Println("Session Initiated")
+func Controller(fibSess *fiber.App, sqlSess *sql.DB, redSess *redis.Client) {
+	Files.FilesController(fibSess, sqlSess, redSess, fibSess.Group("files"))
 }
