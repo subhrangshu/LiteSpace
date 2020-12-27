@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Preparations for adding files.">
-      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/AddFiles/addFiles.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/DeleteFiles/deleteFiles.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/ViewFiles/ViewFIles.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/sqlController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/pseudo-query-controller.go" afterDir="false" />
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Added SQLite Fake statements.">
+      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1/kb1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10/kb10.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB100/kb100.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000/kb1000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000/kb10000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB100000/kb100000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB1/kb1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB10/kb10.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB100/kb100.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB1000/kb1000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB10000/kb10000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB100000/kb100000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1/kb1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10/kb10.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100/kb100.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000/kb1000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000/kb10000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100000/kb100000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/AddEntry/addEntry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/DeleteEntry/deleteEntry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/ViewEntry/viewEntry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/redisController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/DeleteFiles/deleteFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/deleteFiles.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/ViewFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/ViewFiles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/addFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/addFiles.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Files/filesController.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/filesController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/AddFiles/addFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/AddFiles/addFiles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/pseudo-query-controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/pseudo-query-controller.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hash.db" beforeDir="false" afterPath="$PROJECT_DIR$/hash.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +69,22 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Src/Files/ViewFiles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Src" />
+      <recent name="$PROJECT_DIR$/Src/Files/ViewFiles" />
+      <recent name="$PROJECT_DIR$/Src/Files/DeleteFiles" />
+      <recent name="$PROJECT_DIR$/Src/Files/AddFiles/KB100000" />
+      <recent name="$PROJECT_DIR$/Src/Files/AddFiles/KB10000" />
+      <recent name="$PROJECT_DIR$/Src/Files/AddFiles/KB1000" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -97,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608993087275</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added SQLite Fake statements.">
+      <created>1609010200895</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609010200895</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +151,8 @@
     <MESSAGE value="Added README.md" />
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Preparations for adding files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparations for adding files." />
+    <MESSAGE value="Added SQLite Fake statements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SQLite Fake statements." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

@@ -11,9 +11,9 @@ import (
 
 func FilesController(fibSess *fiber.App, sqlSess *sql.DB, redSess *redis.Client, router fiber.Router) {
 	router.Get("/", FilesPage)
-	router.Get("/add", AddFiles.AddFiles)
-	router.Get("/delete", DeleteFiles.DeleteFiles)
-	router.Get("/view", ViewFiles.ViewFiles)
+	ViewFiles.ViewFilesController(fibSess, sqlSess, redSess, router.Group("/view"))
+	DeleteFiles.DeleteFilesController(fibSess, sqlSess, redSess, router.Group("/delete"))
+	AddFiles.AddFilesController(fibSess, sqlSess, redSess, router.Group("/add"))
 }
 
 func FilesPage(ctx *fiber.Ctx) error {

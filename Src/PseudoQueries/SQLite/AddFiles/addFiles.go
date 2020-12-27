@@ -10,12 +10,9 @@ import (
 
 func AddFiles(fibSess *fiber.App, sqlSess *sql.DB, redSess *redis.Client, router fiber.Router) error {
 	router.Get("/add", func(ctx *fiber.Ctx) error {
-		stmt, err := sqlSess.Prepare("INSERT INTO hashlocation (location) values(?)")
-		checkErr(err)
-		res, err := stmt.Exec(rand.Float64())
-		checkErr(err)
-		id, err := res.LastInsertId()
-		checkErr(err)
+		stmt, _ := sqlSess.Prepare("INSERT INTO hashlocation (location) values(?)")
+		res, _ := stmt.Exec(rand.Float64())
+		id, _ := res.LastInsertId()
 		return ctx.SendString(strconv.FormatInt(id, 10))
 	})
 	return nil
