@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Added Files full controll. Left file handling.">
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Files control complete with hard code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB1/kb1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1/kb1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB10/kb10.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10/kb10.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB100/kb100.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB100/kb100.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000/kb1000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000/kb1000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000/kb10000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000/kb10000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB100000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB100000/kb100000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1/kb1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1/kb1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10/kb10.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10/kb10.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100/kb100.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100/kb100.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000/kb1000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000/kb1000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000/kb10000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000/kb10000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100000/kb100000.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/Redis/AddEntry/addEntry.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/AddEntry/addEntry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/Redis/DeleteEntry/deleteEntry.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/DeleteEntry/deleteEntry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/Redis/ViewEntry/viewEntry.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/ViewEntry/viewEntry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/AddFiles/addFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/AddFiles/addFiles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/DeleteFiles/deleteFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/DeleteFiles/deleteFiles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/ViewFiles/ViewFIles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/ViewFiles/ViewFIles.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609056012314</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Files control complete with hard code.">
+      <created>1609074082068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609074082068</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +143,8 @@
     <MESSAGE value="Preparations for adding files." />
     <MESSAGE value="Added SQLite Fake statements." />
     <MESSAGE value="Added Files full controll. Left file handling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Files full controll. Left file handling." />
+    <MESSAGE value="Files control complete with hard code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Files control complete with hard code." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
