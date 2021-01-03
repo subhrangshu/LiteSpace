@@ -19,6 +19,3 @@ func FilesController(fibSess *fiber.App, sqlSess *sql.DB, redSess *redis.Client,
 func FilesPage(ctx *fiber.Ctx) error {
 	return ctx.SendString("Files Page")
 }
-
-const FileBaseAddress = "/mnt/1F8376FA6D76E846/Documents/Research Documents/More/Bigdata/"
-const FileTestAddress = "/mnt/1F8376FA6D76E846/Documents/Research Documents/More/Bigdata/Tests/"

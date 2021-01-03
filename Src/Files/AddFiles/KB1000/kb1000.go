@@ -1,7 +1,7 @@
 package KB1000
 
 import (
-	"LiteSpace/Src/Files"
+	"LiteSpace/Src/Shared"
 	"database/sql"
 	"fmt"
 	"github.com/go-redis/redis"
@@ -13,8 +13,8 @@ import (
 func KB1000(fibSess *fiber.App, sqlSess *sql.DB, redSess *redis.Client, router fiber.Router) error {
 	router.Get("/1000kb", func(ctx *fiber.Ctx) error {
 		if ctx.Query("id") != "" {
-			oldFile, _ := os.Open(Files.FileBaseAddress + "1000KB.txt")
-			newFile, _ := os.Create(Files.FileTestAddress + "1000KB-" + ctx.Query("id") + ".txt")
+			oldFile, _ := os.Open(Shared.FileBaseAddress + "1000KB.txt")
+			newFile, _ := os.Create(Shared.FileTestAddress + "1000KB-" + ctx.Query("id") + ".txt")
 			io.Copy(newFile, oldFile)
 			oldFile.Close()
 			newFile.Close()
