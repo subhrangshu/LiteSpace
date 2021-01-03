@@ -14,10 +14,10 @@ import (
 
 func AddFilesController(fibSess *fiber.App, sqlSess *sql.DB, redSess *redis.Client, router fiber.Router) {
 	router.Get("/", AddFiles)
-	router.Get("/1kb", KB1.KB1)
-	router.Get("/10kb", KB10.KB10)
-	router.Get("/100kb", KB100.KB100)
-	router.Get("/1000kb", KB1000.KB1000)
-	router.Get("/10000kb", KB10000.KB10000)
-	router.Get("/100000kb", KB100000.KB100000)
+	KB1.KB1(fibSess, sqlSess, redSess, router)
+	KB10.KB10(fibSess, sqlSess, redSess, router)
+	KB100.KB100(fibSess, sqlSess, redSess, router)
+	KB1000.KB1000(fibSess, sqlSess, redSess, router)
+	KB10000.KB10000(fibSess, sqlSess, redSess, router)
+	KB100000.KB100000(fibSess, sqlSess, redSess, router)
 }

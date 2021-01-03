@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Files control complete with hard code.">
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="All parameters added with ID parameters of GET request. Need changes for File Views to reduce time complexity.">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/Redis/AddEntry/addEntry.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/AddEntry/addEntry.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/Redis/DeleteEntry/deleteEntry.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/DeleteEntry/deleteEntry.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/Redis/ViewEntry/viewEntry.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/Redis/ViewEntry/viewEntry.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/AddFiles/addFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/AddFiles/addFiles.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/DeleteFiles/deleteFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/DeleteFiles/deleteFiles.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/ViewFiles/ViewFIles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/PseudoQueries/SQLite/ViewFiles/ViewFIles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB1/kb1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1/kb1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB10/kb10.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10/kb10.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB100/kb100.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB100/kb100.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000/kb1000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000/kb1000.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000/kb10000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000/kb10000.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB100000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB100000/kb100000.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1/kb1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1/kb1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10/kb10.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10/kb10.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100/kb100.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100/kb100.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000/kb1000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000/kb1000.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000/kb10000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000/kb10000.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100000/kb100000.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/filesController.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/filesController.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +39,9 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1m4SkRju7LwXnsRKuMNF8SVLiHm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,6 +55,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -52,7 +68,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -75,6 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608751515000</updated>
+      <workItem from="1609133236008" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="Added README.md">
       <created>1608835188810</created>
@@ -118,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609074082068</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="All parameters added with ID parameters of GET request. Need changes for File Views to reduce time complexity.">
+      <created>1609092984637</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609092984637</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +168,9 @@
     <MESSAGE value="Added SQLite Fake statements." />
     <MESSAGE value="Added Files full controll. Left file handling." />
     <MESSAGE value="Files control complete with hard code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Files control complete with hard code." />
+    <MESSAGE value="All parameters added with ID parameters of GET request. Need changes for Files." />
+    <MESSAGE value="All parameters added with ID parameters of GET request. Need changes for File Views to reduce time complexity." />
+    <option name="LAST_COMMIT_MESSAGE" value="All parameters added with ID parameters of GET request. Need changes for File Views to reduce time complexity." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
