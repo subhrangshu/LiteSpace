@@ -7,6 +7,8 @@ import (
 	"LiteSpace/Src/Files/DeleteFiles/KB1000"
 	"LiteSpace/Src/Files/DeleteFiles/KB10000"
 	"LiteSpace/Src/Files/DeleteFiles/KB100000"
+	"LiteSpace/Src/Files/DeleteFiles/KB1000000"
+	"LiteSpace/Src/Files/DeleteFiles/KB10000000"
 	"database/sql"
 	"github.com/go-redis/redis"
 	"github.com/gofiber/fiber/v2"
@@ -20,4 +22,6 @@ func DeleteFilesController(fibSess *fiber.App, sqlSess *sql.DB, redSess *redis.C
 	router.Get("/1000kb", KB1000.KB1000)
 	router.Get("/10000kb", KB10000.KB10000)
 	router.Get("/100000kb", KB100000.KB100000)
+	router.Get("/1000000kb", KB1000000.KB1000000)
+	router.Get("/10000000kb", KB10000000.KB10000000)
 }

@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Made Files access fully functional.">
-      <change afterPath="$PROJECT_DIR$/Src/Shared/addresses.go" afterDir="false" />
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Checked and fixed bugs for Files and added shared files location service.">
+      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000000/kb100000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000000/kb100000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB1000000/kb100000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB10000000/kb100000.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000000/kb100000.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB1/kb1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1/kb1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB10/kb10.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10/kb10.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB100/kb100.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB100/kb100.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000/kb1000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000/kb1000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000/kb10000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000/kb10000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB100000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB100000/kb100000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1/kb1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1/kb1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10/kb10.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10/kb10.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100/kb100.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100/kb100.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000/kb1000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000/kb1000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000/kb10000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000/kb10000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100000/kb100000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/filesController.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/filesController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Files/DeleteFiles/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/controller.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +65,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Src/Files/ViewFiles" />
       <recent name="$PROJECT_DIR$/Src/Files/DeleteFiles" />
+      <recent name="$PROJECT_DIR$/Src/Files/AddFiles" />
       <recent name="$PROJECT_DIR$/Src/Files/AddFiles/KB100000" />
       <recent name="$PROJECT_DIR$/Src/Files/AddFiles/KB10000" />
-      <recent name="$PROJECT_DIR$/Src/Files/AddFiles/KB1000" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -147,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609683774689</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Checked and fixed bugs for Files and added shared files location service.">
+      <created>1609697200681</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609697200681</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +176,8 @@
     <MESSAGE value="All parameters added with ID parameters of GET request. Need changes for Files." />
     <MESSAGE value="All parameters added with ID parameters of GET request. Need changes for File Views to reduce time complexity." />
     <MESSAGE value="Made Files access fully functional." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Files access fully functional." />
+    <MESSAGE value="Checked and fixed bugs for Files and added shared files location service." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked and fixed bugs for Files and added shared files location service." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
