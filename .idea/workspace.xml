@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Added Load Testing Files">
-      <change beforePath="$PROJECT_DIR$/.idea/LiteSpace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LiteSpace.iml" afterDir="false" />
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Prepared for final test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoadTesting/Test Strategy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LoadTesting/Test Strategy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadTesting/locustfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoadTesting/locustfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609831043219</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Prepared for final test">
+      <created>1609850867344</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609850867344</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +209,8 @@
     <MESSAGE value="Added 1GB and 10GB Supports" />
     <MESSAGE value="Fixed bugs and ready to test deploy." />
     <MESSAGE value="Added Load Testing Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Load Testing Files" />
+    <MESSAGE value="Prepared for final test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepared for final test" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
