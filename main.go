@@ -19,6 +19,6 @@ func main() {
 
 	PrimaryController.Controller(fiberSess, sqliteSess, redisSess)
 	PseudoQueries.PseudoQueryController(fiberSess, sqliteSess, redisSess)
-	fiberSess.Listen(":3000")
+	fiberSess.Listen("0.0.0.0:3000")
 	//if err := session.Query('Insert int')
 }

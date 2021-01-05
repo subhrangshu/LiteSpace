@@ -9,6 +9,7 @@ import (
 	"LiteSpace/Src/Files/ViewFiles/KB100000"
 	"LiteSpace/Src/Files/ViewFiles/KB1000000"
 	"LiteSpace/Src/Files/ViewFiles/KB10000000"
+	"LiteSpace/Src/Shared"
 	"database/sql"
 	"github.com/go-redis/redis"
 	"github.com/gofiber/fiber/v2"
@@ -16,6 +17,7 @@ import (
 
 func ViewFilesController(fibSess *fiber.App, sqlSess *sql.DB, redSess *redis.Client, router fiber.Router) {
 	router.Get("/", ViewFiles)
+	fibSess.Static("/", Shared.FileTestAddress)
 
 	KB1.KB1(fibSess, sqlSess, redSess, router)
 	KB10.KB10(fibSess, sqlSess, redSess, router)
