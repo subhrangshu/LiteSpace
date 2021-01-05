@@ -309,7 +309,7 @@ Test Tools:
 1. JMeter
 2. Seige
 3. Wrk2
-4. Locust: locust -f locustfile.py --headless -t10m --host https://en.wikipedia.com --csv-full-history --users 200 --spawn-rate 5 --run-time 20s --csv=example
+4. Locust: locust -f locustfile.py --headless --csv-full-history --run-time 20s --users 200 --spawn-rate 5 --csv=example --host https://en.wikipedia.com
 
 Files Creation in Python:
 with open("file.to.create", "wb") as out:
