@@ -310,3 +310,7 @@ Test Tools:
 2. Seige
 3. Wrk2
 4. Locust: locust -f locustfile.py --headless -t10m --host https://en.wikipedia.com --csv-full-history --users 200 --spawn-rate 5 --run-time 20s --csv=example
+
+Files Creation in Python:
+with open("file.to.create", "wb") as out:
+    out.truncate(1024 * 1024 * 1024)

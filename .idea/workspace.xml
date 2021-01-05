@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Fixed bugs and ready to test deploy.">
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Added Load Testing Files">
+      <change beforePath="$PROJECT_DIR$/.idea/LiteSpace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LiteSpace.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadTesting/Test Strategy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LoadTesting/Test Strategy.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -160,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609828714992</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Load Testing Files">
+      <created>1609831043219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609831043219</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +202,8 @@
     <MESSAGE value="Checked and fixed bugs for Files and added shared files location service." />
     <MESSAGE value="Added 1GB and 10GB Supports" />
     <MESSAGE value="Fixed bugs and ready to test deploy." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs and ready to test deploy." />
+    <MESSAGE value="Added Load Testing Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Load Testing Files" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
