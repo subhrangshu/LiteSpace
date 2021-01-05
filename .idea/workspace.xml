@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Added 1GB and 10GB Supports">
-      <change afterPath="$PROJECT_DIR$/LiteSpace" afterDir="false" />
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Fixed bugs and ready to test deploy.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB1000000/kb1000000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/AddFiles/KB10000000/kb10000000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB1000000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB1000000/kb1000000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB10000000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/DeleteFiles/KB10000000/kb10000000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1/kb1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1/kb1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10/kb10.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10/kb10.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100/kb100.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100/kb100.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000/kb1000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000/kb1000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000/kb10000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000/kb10000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB100000/kb100000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB1000000/kb1000000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000000/kb100000.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/KB10000000/kb10000000.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Files/ViewFiles/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Files/ViewFiles/controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Shared/addresses.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Shared/addresses.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609778435501</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed bugs and ready to test deploy.">
+      <created>1609828714992</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609828714992</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +192,8 @@
     <MESSAGE value="Made Files access fully functional." />
     <MESSAGE value="Checked and fixed bugs for Files and added shared files location service." />
     <MESSAGE value="Added 1GB and 10GB Supports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 1GB and 10GB Supports" />
+    <MESSAGE value="Fixed bugs and ready to test deploy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs and ready to test deploy." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

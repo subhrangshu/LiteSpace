@@ -1,0 +1,312 @@
+A. 1 GB 1CPU
+I. Files Test
+1. Add Files
+    a. 1 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    b. 100 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    c. 1000 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+2. View Files
+    a. 1 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    b. 100 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    c. 1000 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+
+#################3. Delete Files
+
+II. Redis Test
+1. Add Files
+    a. 1 Threads
+    b. 100 Threads
+    c. 1000 Threads
+2. View Files
+    a. 1 Threads
+    b. 100 Threads
+    c. 1000 Threads
+3. Delete Files
+    a. 1 Threads
+    b. 100 Threads
+    c. 1000 Threads
+
+III. SQLite Test
+1. Add Files
+    a. 1 Threads
+    b. 100 Threads
+    c. 1000 Threads
+2. View Files
+    a. 1 Threads
+    b. 100 Threads
+    c. 1000 Threads
+3. Delete Files
+    a. 1 Threads
+    b. 100 Threads
+    c. 1000 Threads
+
+IV. Gluster Test
+1. Add Files
+    a. 1 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    b. 100 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    c. 1000 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+2. View Files
+    a. 1 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    b. 100 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    c. 1000 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+##################3. Delete Files
+
+V. Stress Test
+
+B. 2 GB 2CPU
+I. Files Test
+1. Add Files
+    a. 1 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    b. 100 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    c. 1000 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+2. View Files
+    a. 1 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    b. 100 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    c. 1000 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+
+####################3. Delete Files
+
+II. Redis Test
+1. Add Files
+2. View Files
+3. Delete Files
+
+III. SQLite Test
+1. Add Files
+2. View Files
+3. Delete Files
+
+IV. Gluster Test
+1. Add Files
+2. View Files
+3. Delete Files
+
+V. Stress Test
+
+C. 1 GB 1CPU x 3
+I. Files Test
+1. Add Files
+2. View Files
+3. Delete Files
+
+II. Redis Test
+1. Add Files
+2. View Files
+3. Delete Files
+
+III. SQLite Test
+1. Add Files
+2. View Files
+3. Delete Files
+
+IV. Gluster Test
+1. Add Files
+    a. 1 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    b. 100 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    c. 1000 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+2. View Files
+    a. 1 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    b. 100 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+    c. 1000 Threads
+        i. 1kb
+        ii. 10kb
+        iii. 100kb
+        iv. 1mb
+        v. 10mb
+        vi. 100mb
+        vii. 1gb
+        viii. 10gb
+######################3. Delete Test
+
+V. Stress Test
+
+
+
+Test Tools:
+1. JMeter
+2. Seige
+3. Wrk2
+4. Locust: locust -f locustfile.py --headless -t10m --host https://en.wikipedia.com --csv-full-history --users 200 --spawn-rate 5 --run-time 20s --csv=example
