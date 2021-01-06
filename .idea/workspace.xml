@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="stress test">
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="stress test locust update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoadTesting/Test Strategy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LoadTesting/Test Strategy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadTesting/locustfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoadTesting/locustfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609935237763</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="stress test locust update">
+      <created>1609936977875</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1609936977875</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +315,8 @@
     <MESSAGE value="Gluster" />
     <MESSAGE value="2nd day test" />
     <MESSAGE value="stress test" />
-    <option name="LAST_COMMIT_MESSAGE" value="stress test" />
+    <MESSAGE value="stress test locust update" />
+    <option name="LAST_COMMIT_MESSAGE" value="stress test locust update" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
