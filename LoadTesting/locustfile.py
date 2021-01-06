@@ -6,5 +6,5 @@ class WebsiteUser(HttpUser):
 
     @task
     def data(self):
-        for i in range(10):
+        for i in range(100):
             self.client.get("?id="+str(i))

@@ -8,5 +8,6 @@ package Shared
 //Server
 const FileBaseAddress string = "/mnt/volume_nyc3_01/testfiles/"
 
-// const FileTestAddress string = "/mnt/volume_nyc3_01/litespace/"
-const FileTestAddress string = "/mnt/glusterfs/"
+const FileTestAddress string = "/mnt/volume_nyc3_01/litespace/"
+
+// const FileTestAddress string = "/mnt/glusterfs/"
