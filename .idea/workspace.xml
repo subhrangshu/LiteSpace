@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="In-Memory">
+    <list default="true" id="c78c656f-4738-44eb-a1a7-0cbcce277a6c" name="Default Changelist" comment="Gluster">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoadTesting/Test Strategy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LoadTesting/Test Strategy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Shared/addresses.go" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Shared/addresses.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,7 @@
   <component name="GOROOT" url="file:///snap/go/6745" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609868563698</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Gluster">
+      <created>1609871411355</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609871411355</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +255,8 @@
     <MESSAGE value="Prepared for final test" />
     <MESSAGE value="Updated Locustfile" />
     <MESSAGE value="In-Memory" />
-    <option name="LAST_COMMIT_MESSAGE" value="In-Memory" />
+    <MESSAGE value="Gluster" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gluster" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
