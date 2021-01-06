@@ -3,6 +3,7 @@
 50 thread -> Spawn 2.5
 500 thread -> Spawn 25
 2000 thread -> Spawn 100
+1500 -> Spawn 75
 
 $$$$$$$$$$$$$$$$$$$$$$ Redis takes 0.4% x 4, LiteSpace 5 x 1 %
 A. 1 GB 1CPU
@@ -137,67 +138,46 @@ VI. Raw Test
 2. 200 Threads (DONE)
 3. 10 Threads (DONE)
 
-B. 2 GB 2CPU
+B. 8 GB 4CPU
 I. Files Test
 1. Add Files
     a. 500 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
+        i. 1kb (DONE)
+        ii. 10kb (DONE)
+        iii. 100kb (DONE)
+        iv. 1mb (DONE)
+        v. 10mb (DONE)
+        vi. 100mb (DONE)
+        vii. 1gb (DONE)
+        viii. 10gb (CRASHED)
     b. 1000 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
-    c. 2000 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
+        i. 1kb (DONE)
+        ii. 10kb (DONE)
+        iii. 100kb (DONE)
+        iv. 1mb (DONE)
+        v. 10mb (DONE)
+        vi. 100mb (DONE)
+        vii. 1gb (DONE)
+        viii. 10gb (CRASHED)
 2. View Files
     a. 500 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
+        i. 1kb (DONE)
+        ii. 10kb (DONE)
+        iii. 100kb (DONE)
+        iv. 1mb (DONE)
+        v. 10mb (DONE)
+        vi. 100mb (DONE)
+        vii. 1gb (DONE)
+        viii. 10gb (DONE)
     b. 1000 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
-    c. 2000 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
-
-####################3. Delete Files
-
+        i. 1kb (DONE)
+        ii. 10kb (DONE)
+        iii. 100kb (DONE)
+        iv. 1mb (DONE)
+        v. 10mb (DONE)
+        vi. 100mb (DONE)
+        vii. 1gb (DONE)
+        viii. 10gb (CRASHED)
 
 Test Tools:
 1. JMeter
