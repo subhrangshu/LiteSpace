@@ -80,61 +80,43 @@ II. Redis Test
 
 IV. Gluster Test
 1. Add Files
-    a. 50 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
-    b. 200 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
-    c. 1000 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
+    a. 1 Threads
+        i. 1kb (DONE)
+        ii. 10kb (DONE)
+        iii. 100kb (DONE)
+        iv. 1mb (DONE)
+        v. 10mb (DONE)
+        vi. 100mb (DONE)
+        vii. 1gb (DONE)
+        viii. 10gb (DONE)
 2. View Files
-    a. 5 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
+    a. 50 Threads
+        i. 1kb (DONE)
+        ii. 10kb (DONE)
+        iii. 100kb (DONE)
+        iv. 1mb (DONE)
+        v. 10mb (DONE)
+        vi. 100mb (DONE)
+        vii. 1gb (DONE)
+        viii. 10gb (DONE)
     b. 200 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
+        i. 1kb (DONE)
+        ii. 10kb (DONE)
+        iii. 100kb (DONE)
+        iv. 1mb (DONE)
+        v. 10mb (DONE)
+        vi. 100mb (DONE)
+        vii. 1gb (DONE)
+        viii. 10gb (DONE)
     c. 1000 Threads
-        i. 1kb
-        ii. 10kb
-        iii. 100kb
-        iv. 1mb
-        v. 10mb
-        vi. 100mb
-        vii. 1gb
-        viii. 10gb
+        i. 1kb (DONE)
+        ii. 10kb (DONE)
+        iii. 100kb (DONE)
+        iv. 1mb (DONE)
+        v. 10mb (DONE)
+        vi. 100mb (DONE)
+        vii. 1gb (DONE)
+        viii. 10gb (DONE)
 ##################3. Delete Files
 
 V. Stress Test
@@ -199,20 +181,6 @@ I. Files Test
         viii. 10gb
 
 ####################3. Delete Files
-
-II. Redis Test
-1. Add Files
-2. View Files
-3. Delete Files
-
-IV. Gluster Test
-1. Add Files
-2. View Files
-3. Delete Files
-
-V. Stress Test
-
-
 
 
 Test Tools:
