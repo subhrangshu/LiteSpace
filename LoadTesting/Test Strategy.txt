@@ -120,6 +120,17 @@ IV. Gluster Test
 ##################3. Delete Files
 
 V. Stress Test
+1. 1mb (1000 threads, 10000 requests each)
+    i. Write
+    ii. Read
+2. 1kb (1000 threads, 10)
+    i. Write
+    ii. Read
+
+VI. Raw Test
+1. 1000 Threads
+2. 200 Threads
+3. 10 Threads
 
 B. 2 GB 2CPU
 I. Files Test
